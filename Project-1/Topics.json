@@ -1,0 +1,7 @@
+{
+    "Politics": ["politics"],
+    "Environment": ["environment"],
+    "Technology": ["technology"],
+    "Healthcare": ["healthcare"],
+    "Education": ["education"]
+}
