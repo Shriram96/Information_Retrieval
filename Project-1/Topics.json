@@ -1,7 +1,7 @@
 {
-    "Politics": ["politics"],
-    "Environment": ["environment"],
-    "Technology": ["technology"],
-    "Healthcare": ["healthcare"],
-    "Education": ["education"]
+    "Politics": ["politics", "biden", "narendra modi", "putin", "war", "democrat", "republic", "gun", "law", "government"],
+    "Environment": ["environment", "climate", "weather", "forest", "tree", "animals", "rain", "glacier", "sun", "river"],
+    "Technology": ["technology", "iPhone", "google", "camera", "pixel", "display", "television", "data", "satellite", "blockchain"],
+    "Healthcare": ["healthcare", "virus", "hospital", "health", "doctor", "food", "disease", "medicine", "diet", "covid"],
+    "Education": ["education", "professor", "college", "university", "student", "graduate", "school", "science", "student loans", "premed"]
 }
