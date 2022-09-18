@@ -26,12 +26,21 @@ for sub_reddit in contents.keys():
         meta_data[sub_reddit][main_topic] = 0
         for topic in topics[main_topic]:
             print("For sub_reddit:", sub_reddit, "with main topic:", main_topic, "and sub topic:", topic)
-            gen = api.search_submissions(q=topic, before="1y",
-                               subreddit=[sub_reddit],
-                               num_comments=">10",
-                               filter=['id', 'subreddit', 'full_link', 'title', 'selftext', 'author', 'score', 'num_comments'],
-                               limit = SUBMISSIONS_LIMIT
-                              )
+            query = {
+                "q": topic,
+                "before": "1y",
+                "subreddit": [sub_reddit],
+                "num_comments": ">10",
+                "selftext": topic,
+                "selftext:not": "[removed]|[deleted]",
+                "filter": ['id', 'subreddit', 'full_link', 'title', 'selftext', 'author', 'score', 'num_comments'],
+                "limit": SUBMISSIONS_LIMIT
+            }
+            
+            if sub_reddit == "FoodForThought":
+                query.pop("selftext")
+            
+            gen = api.search_submissions(**query)
             for item in gen:
                 # if item.selftext != "[deleted]" and item.selftext != "[removed]":
                 item_dict = item.d_
