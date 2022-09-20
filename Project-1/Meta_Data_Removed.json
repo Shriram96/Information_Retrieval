@@ -1,0 +1,1150 @@
+{
+  "ChangeMyView": {
+    "animals": {
+      "Actual": 3930,
+      "Deleted": 51,
+      "Empty": 0,
+      "Removed": 79
+    },
+    "biden": {
+      "Actual": 3531,
+      "Deleted": 56,
+      "Empty": 0,
+      "Removed": 65
+    },
+    "blockchain": {
+      "Actual": 1505,
+      "Deleted": 16,
+      "Empty": 0,
+      "Removed": 18
+    },
+    "camera": {
+      "Actual": 2241,
+      "Deleted": 36,
+      "Empty": 0,
+      "Removed": 43
+    },
+    "class": {
+      "Actual": 3109,
+      "Deleted": 57,
+      "Empty": 0,
+      "Removed": 59
+    },
+    "climate": {
+      "Actual": 4532,
+      "Deleted": 71,
+      "Empty": 0,
+      "Removed": 68
+    },
+    "college": {
+      "Actual": 2622,
+      "Deleted": 69,
+      "Empty": 0,
+      "Removed": 53
+    },
+    "covid": {
+      "Actual": 5746,
+      "Deleted": 153,
+      "Empty": 0,
+      "Removed": 152
+    },
+    "data": {
+      "Actual": 3798,
+      "Deleted": 57,
+      "Empty": 0,
+      "Removed": 89
+    },
+    "democrat": {
+      "Actual": 5802,
+      "Deleted": 109,
+      "Empty": 0,
+      "Removed": 121
+    },
+    "diet": {
+      "Actual": 2796,
+      "Deleted": 65,
+      "Empty": 0,
+      "Removed": 55
+    },
+    "disease": {
+      "Actual": 4139,
+      "Deleted": 80,
+      "Empty": 0,
+      "Removed": 186
+    },
+    "display": {
+      "Actual": 1685,
+      "Deleted": 30,
+      "Empty": 0,
+      "Removed": 33
+    },
+    "doctor": {
+      "Actual": 5084,
+      "Deleted": 113,
+      "Empty": 0,
+      "Removed": 109
+    },
+    "education": {
+      "Actual": 4394,
+      "Deleted": 149,
+      "Empty": 0,
+      "Removed": 154
+    },
+    "environment": {
+      "Actual": 2459,
+      "Deleted": 52,
+      "Empty": 0,
+      "Removed": 36
+    },
+    "food": {
+      "Actual": 3118,
+      "Deleted": 84,
+      "Empty": 0,
+      "Removed": 96
+    },
+    "forest": {
+      "Actual": 2178,
+      "Deleted": 55,
+      "Empty": 0,
+      "Removed": 27
+    },
+    "glacier": {
+      "Actual": 292,
+      "Deleted": 4,
+      "Empty": 0,
+      "Removed": 1
+    },
+    "google": {
+      "Actual": 3494,
+      "Deleted": 69,
+      "Empty": 0,
+      "Removed": 58
+    },
+    "government": {
+      "Actual": 3743,
+      "Deleted": 90,
+      "Empty": 0,
+      "Removed": 94
+    },
+    "graduate": {
+      "Actual": 2674,
+      "Deleted": 60,
+      "Empty": 0,
+      "Removed": 106
+    },
+    "gun": {
+      "Actual": 5510,
+      "Deleted": 110,
+      "Empty": 0,
+      "Removed": 95
+    },
+    "healthcare": {
+      "Actual": 3339,
+      "Deleted": 55,
+      "Empty": 0,
+      "Removed": 36
+    },
+    "hospital": {
+      "Actual": 3149,
+      "Deleted": 70,
+      "Empty": 0,
+      "Removed": 69
+    },
+    "iPhone": {
+      "Actual": 2543,
+      "Deleted": 41,
+      "Empty": 0,
+      "Removed": 25
+    },
+    "law": {
+      "Actual": 4228,
+      "Deleted": 64,
+      "Empty": 0,
+      "Removed": 101
+    },
+    "medicine": {
+      "Actual": 4321,
+      "Deleted": 78,
+      "Empty": 0,
+      "Removed": 144
+    },
+    "narendra modi": {
+      "Actual": 79,
+      "Deleted": 0,
+      "Empty": 0,
+      "Removed": 2
+    },
+    "pixel": {
+      "Actual": 792,
+      "Deleted": 11,
+      "Empty": 0,
+      "Removed": 2
+    },
+    "politics": {
+      "Actual": 4057,
+      "Deleted": 80,
+      "Empty": 0,
+      "Removed": 99
+    },
+    "premed": {
+      "Actual": 217,
+      "Deleted": 29,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "professor": {
+      "Actual": 2685,
+      "Deleted": 52,
+      "Empty": 0,
+      "Removed": 31
+    },
+    "putin": {
+      "Actual": 1691,
+      "Deleted": 18,
+      "Empty": 0,
+      "Removed": 42
+    },
+    "rain": {
+      "Actual": 1356,
+      "Deleted": 28,
+      "Empty": 0,
+      "Removed": 19
+    },
+    "republic": {
+      "Actual": 2474,
+      "Deleted": 48,
+      "Empty": 0,
+      "Removed": 57
+    },
+    "river": {
+      "Actual": 1919,
+      "Deleted": 109,
+      "Empty": 0,
+      "Removed": 47
+    },
+    "satellite": {
+      "Actual": 1402,
+      "Deleted": 10,
+      "Empty": 0,
+      "Removed": 19
+    },
+    "school": {
+      "Actual": 2981,
+      "Deleted": 68,
+      "Empty": 0,
+      "Removed": 55
+    },
+    "science": {
+      "Actual": 5049,
+      "Deleted": 87,
+      "Empty": 0,
+      "Removed": 153
+    },
+    "sick": {
+      "Actual": 3546,
+      "Deleted": 82,
+      "Empty": 0,
+      "Removed": 103
+    },
+    "student": {
+      "Actual": 2412,
+      "Deleted": 45,
+      "Empty": 0,
+      "Removed": 36
+    },
+    "sun": {
+      "Actual": 1852,
+      "Deleted": 29,
+      "Empty": 0,
+      "Removed": 53
+    },
+    "technology": {
+      "Actual": 2473,
+      "Deleted": 29,
+      "Empty": 0,
+      "Removed": 45
+    },
+    "television": {
+      "Actual": 2356,
+      "Deleted": 37,
+      "Empty": 0,
+      "Removed": 38
+    },
+    "tree": {
+      "Actual": 1600,
+      "Deleted": 24,
+      "Empty": 0,
+      "Removed": 19
+    },
+    "university": {
+      "Actual": 3250,
+      "Deleted": 61,
+      "Empty": 0,
+      "Removed": 111
+    },
+    "virus": {
+      "Actual": 3857,
+      "Deleted": 124,
+      "Empty": 0,
+      "Removed": 82
+    },
+    "war": {
+      "Actual": 2387,
+      "Deleted": 95,
+      "Empty": 0,
+      "Removed": 64
+    },
+    "weather": {
+      "Actual": 2115,
+      "Deleted": 31,
+      "Empty": 0,
+      "Removed": 20
+    }
+  },
+  "ExplainLikeImFive": {
+    "animals": {
+      "Actual": 373,
+      "Deleted": 1,
+      "Empty": 0,
+      "Removed": 39
+    },
+    "biden": {
+      "Actual": 197,
+      "Deleted": 2,
+      "Empty": 0,
+      "Removed": 14
+    },
+    "blockchain": {
+      "Actual": 190,
+      "Deleted": 3,
+      "Empty": 0,
+      "Removed": 11
+    },
+    "camera": {
+      "Actual": 276,
+      "Deleted": 3,
+      "Empty": 0,
+      "Removed": 26
+    },
+    "class": {
+      "Actual": 1154,
+      "Deleted": 28,
+      "Empty": 0,
+      "Removed": 122
+    },
+    "climate": {
+      "Actual": 1689,
+      "Deleted": 51,
+      "Empty": 0,
+      "Removed": 110
+    },
+    "college": {
+      "Actual": 666,
+      "Deleted": 14,
+      "Empty": 0,
+      "Removed": 114
+    },
+    "covid": {
+      "Actual": 472,
+      "Deleted": 4,
+      "Empty": 0,
+      "Removed": 21
+    },
+    "data": {
+      "Actual": 505,
+      "Deleted": 10,
+      "Empty": 0,
+      "Removed": 16
+    },
+    "democrat": {
+      "Actual": 199,
+      "Deleted": 3,
+      "Empty": 0,
+      "Removed": 13
+    },
+    "diet": {
+      "Actual": 1922,
+      "Deleted": 65,
+      "Empty": 0,
+      "Removed": 106
+    },
+    "disease": {
+      "Actual": 452,
+      "Deleted": 10,
+      "Empty": 0,
+      "Removed": 52
+    },
+    "display": {
+      "Actual": 244,
+      "Deleted": 4,
+      "Empty": 0,
+      "Removed": 13
+    },
+    "doctor": {
+      "Actual": 404,
+      "Deleted": 8,
+      "Empty": 0,
+      "Removed": 47
+    },
+    "education": {
+      "Actual": 853,
+      "Deleted": 9,
+      "Empty": 0,
+      "Removed": 253
+    },
+    "environment": {
+      "Actual": 768,
+      "Deleted": 11,
+      "Empty": 0,
+      "Removed": 52
+    },
+    "food": {
+      "Actual": 1308,
+      "Deleted": 23,
+      "Empty": 0,
+      "Removed": 114
+    },
+    "forest": {
+      "Actual": 376,
+      "Deleted": 1,
+      "Empty": 0,
+      "Removed": 30
+    },
+    "glacier": {
+      "Actual": 31,
+      "Deleted": 5,
+      "Empty": 0,
+      "Removed": 5
+    },
+    "google": {
+      "Actual": 460,
+      "Deleted": 11,
+      "Empty": 0,
+      "Removed": 23
+    },
+    "government": {
+      "Actual": 306,
+      "Deleted": 10,
+      "Empty": 0,
+      "Removed": 21
+    },
+    "graduate": {
+      "Actual": 751,
+      "Deleted": 9,
+      "Empty": 0,
+      "Removed": 98
+    },
+    "gun": {
+      "Actual": 456,
+      "Deleted": 11,
+      "Empty": 0,
+      "Removed": 37
+    },
+    "healthcare": {
+      "Actual": 346,
+      "Deleted": 4,
+      "Empty": 0,
+      "Removed": 26
+    },
+    "hospital": {
+      "Actual": 465,
+      "Deleted": 13,
+      "Empty": 0,
+      "Removed": 20
+    },
+    "iPhone": {
+      "Actual": 243,
+      "Deleted": 3,
+      "Empty": 0,
+      "Removed": 11
+    },
+    "law": {
+      "Actual": 499,
+      "Deleted": 17,
+      "Empty": 0,
+      "Removed": 52
+    },
+    "medicine": {
+      "Actual": 320,
+      "Deleted": 10,
+      "Empty": 0,
+      "Removed": 45
+    },
+    "narendra modi": {
+      "Actual": 29,
+      "Deleted": 0,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "pixel": {
+      "Actual": 250,
+      "Deleted": 7,
+      "Empty": 0,
+      "Removed": 5
+    },
+    "politics": {
+      "Actual": 326,
+      "Deleted": 13,
+      "Empty": 0,
+      "Removed": 58
+    },
+    "professor": {
+      "Actual": 988,
+      "Deleted": 10,
+      "Empty": 0,
+      "Removed": 51
+    },
+    "putin": {
+      "Actual": 269,
+      "Deleted": 19,
+      "Empty": 0,
+      "Removed": 9
+    },
+    "rain": {
+      "Actual": 458,
+      "Deleted": 16,
+      "Empty": 0,
+      "Removed": 39
+    },
+    "republic": {
+      "Actual": 361,
+      "Deleted": 6,
+      "Empty": 0,
+      "Removed": 28
+    },
+    "river": {
+      "Actual": 251,
+      "Deleted": 5,
+      "Empty": 0,
+      "Removed": 14
+    },
+    "satellite": {
+      "Actual": 263,
+      "Deleted": 7,
+      "Empty": 0,
+      "Removed": 10
+    },
+    "school": {
+      "Actual": 485,
+      "Deleted": 14,
+      "Empty": 0,
+      "Removed": 52
+    },
+    "science": {
+      "Actual": 265,
+      "Deleted": 7,
+      "Empty": 0,
+      "Removed": 21
+    },
+    "sick": {
+      "Actual": 236,
+      "Deleted": 4,
+      "Empty": 0,
+      "Removed": 40
+    },
+    "student": {
+      "Actual": 1115,
+      "Deleted": 30,
+      "Empty": 0,
+      "Removed": 104
+    },
+    "sun": {
+      "Actual": 861,
+      "Deleted": 17,
+      "Empty": 0,
+      "Removed": 87
+    },
+    "technology": {
+      "Actual": 400,
+      "Deleted": 7,
+      "Empty": 0,
+      "Removed": 30
+    },
+    "television": {
+      "Actual": 206,
+      "Deleted": 4,
+      "Empty": 0,
+      "Removed": 15
+    },
+    "tree": {
+      "Actual": 284,
+      "Deleted": 3,
+      "Empty": 0,
+      "Removed": 15
+    },
+    "university": {
+      "Actual": 829,
+      "Deleted": 12,
+      "Empty": 0,
+      "Removed": 82
+    },
+    "virus": {
+      "Actual": 1001,
+      "Deleted": 4,
+      "Empty": 0,
+      "Removed": 15
+    },
+    "war": {
+      "Actual": 326,
+      "Deleted": 5,
+      "Empty": 0,
+      "Removed": 35
+    },
+    "weather": {
+      "Actual": 825,
+      "Deleted": 25,
+      "Empty": 0,
+      "Removed": 125
+    }
+  },
+  "FoodForThought": {
+    "animals": {
+      "Actual": 1364,
+      "Deleted": 50,
+      "Empty": 0,
+      "Removed": 37
+    },
+    "biden": {
+      "Actual": 431,
+      "Deleted": 9,
+      "Empty": 0,
+      "Removed": 4
+    },
+    "blockchain": {
+      "Actual": 136,
+      "Deleted": 2,
+      "Empty": 0,
+      "Removed": 3
+    },
+    "camera": {
+      "Actual": 101,
+      "Deleted": 7,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "class": {
+      "Actual": 960,
+      "Deleted": 18,
+      "Empty": 0,
+      "Removed": 4
+    },
+    "climate": {
+      "Actual": 878,
+      "Deleted": 11,
+      "Empty": 0,
+      "Removed": 80
+    },
+    "college": {
+      "Actual": 1066,
+      "Deleted": 27,
+      "Empty": 0,
+      "Removed": 17
+    },
+    "covid": {
+      "Actual": 993,
+      "Deleted": 16,
+      "Empty": 0,
+      "Removed": 77
+    },
+    "data": {
+      "Actual": 562,
+      "Deleted": 9,
+      "Empty": 0,
+      "Removed": 10
+    },
+    "democrat": {
+      "Actual": 47,
+      "Deleted": 2,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "diet": {
+      "Actual": 263,
+      "Deleted": 7,
+      "Empty": 0,
+      "Removed": 8
+    },
+    "disease": {
+      "Actual": 712,
+      "Deleted": 33,
+      "Empty": 0,
+      "Removed": 21
+    },
+    "display": {
+      "Actual": 28,
+      "Deleted": 4,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "doctor": {
+      "Actual": 809,
+      "Deleted": 24,
+      "Empty": 0,
+      "Removed": 34
+    },
+    "education": {
+      "Actual": 950,
+      "Deleted": 20,
+      "Empty": 0,
+      "Removed": 2
+    },
+    "environment": {
+      "Actual": 565,
+      "Deleted": 36,
+      "Empty": 0,
+      "Removed": 28
+    },
+    "food": {
+      "Actual": 799,
+      "Deleted": 9,
+      "Empty": 0,
+      "Removed": 16
+    },
+    "forest": {
+      "Actual": 22,
+      "Deleted": 0,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "google": {
+      "Actual": 734,
+      "Deleted": 25,
+      "Empty": 0,
+      "Removed": 38
+    },
+    "government": {
+      "Actual": 835,
+      "Deleted": 14,
+      "Empty": 0,
+      "Removed": 8
+    },
+    "graduate": {
+      "Actual": 60,
+      "Deleted": 3,
+      "Empty": 0,
+      "Removed": 1
+    },
+    "gun": {
+      "Actual": 1606,
+      "Deleted": 45,
+      "Empty": 0,
+      "Removed": 53
+    },
+    "healthcare": {
+      "Actual": 333,
+      "Deleted": 13,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "hospital": {
+      "Actual": 378,
+      "Deleted": 11,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "iPhone": {
+      "Actual": 57,
+      "Deleted": 7,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "law": {
+      "Actual": 777,
+      "Deleted": 20,
+      "Empty": 0,
+      "Removed": 31
+    },
+    "medicine": {
+      "Actual": 230,
+      "Deleted": 9,
+      "Empty": 0,
+      "Removed": 6
+    },
+    "narendra modi": {
+      "Actual": 20,
+      "Deleted": 3,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "politics": {
+      "Actual": 1020,
+      "Deleted": 19,
+      "Empty": 0,
+      "Removed": 5
+    },
+    "professor": {
+      "Actual": 1074,
+      "Deleted": 86,
+      "Empty": 0,
+      "Removed": 10
+    },
+    "putin": {
+      "Actual": 292,
+      "Deleted": 16,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "rain": {
+      "Actual": 16,
+      "Deleted": 0,
+      "Empty": 0,
+      "Removed": 1
+    },
+    "republic": {
+      "Actual": 158,
+      "Deleted": 7,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "river": {
+      "Actual": 20,
+      "Deleted": 0,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "satellite": {
+      "Actual": 24,
+      "Deleted": 11,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "school": {
+      "Actual": 1243,
+      "Deleted": 40,
+      "Empty": 0,
+      "Removed": 36
+    },
+    "science": {
+      "Actual": 1289,
+      "Deleted": 22,
+      "Empty": 0,
+      "Removed": 14
+    },
+    "sick": {
+      "Actual": 620,
+      "Deleted": 20,
+      "Empty": 0,
+      "Removed": 1
+    },
+    "student": {
+      "Actual": 1469,
+      "Deleted": 53,
+      "Empty": 0,
+      "Removed": 91
+    },
+    "sun": {
+      "Actual": 96,
+      "Deleted": 3,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "technology": {
+      "Actual": 714,
+      "Deleted": 41,
+      "Empty": 0,
+      "Removed": 2
+    },
+    "television": {
+      "Actual": 532,
+      "Deleted": 28,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "tree": {
+      "Actual": 130,
+      "Deleted": 2,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "university": {
+      "Actual": 1453,
+      "Deleted": 72,
+      "Empty": 0,
+      "Removed": 94
+    },
+    "virus": {
+      "Actual": 269,
+      "Deleted": 4,
+      "Empty": 0,
+      "Removed": 1
+    },
+    "war": {
+      "Actual": 941,
+      "Deleted": 6,
+      "Empty": 0,
+      "Removed": 18
+    },
+    "weather": {
+      "Actual": 106,
+      "Deleted": 3,
+      "Empty": 0,
+      "Removed": 0
+    }
+  },
+  "TodayILearned": {
+    "animals": {
+      "Actual": 393,
+      "Deleted": 33,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "camera": {
+      "Actual": 40,
+      "Deleted": 0,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "class": {
+      "Actual": 1092,
+      "Deleted": 77,
+      "Empty": 0,
+      "Removed": 1
+    },
+    "climate": {
+      "Actual": 13,
+      "Deleted": 0,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "college": {
+      "Actual": 188,
+      "Deleted": 17,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "data": {
+      "Actual": 1704,
+      "Deleted": 141,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "democrat": {
+      "Actual": 29,
+      "Deleted": 3,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "diet": {
+      "Actual": 52,
+      "Deleted": 4,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "disease": {
+      "Actual": 96,
+      "Deleted": 11,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "display": {
+      "Actual": 173,
+      "Deleted": 10,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "doctor": {
+      "Actual": 116,
+      "Deleted": 7,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "education": {
+      "Actual": 886,
+      "Deleted": 52,
+      "Empty": 0,
+      "Removed": 1
+    },
+    "environment": {
+      "Actual": 994,
+      "Deleted": 54,
+      "Empty": 0,
+      "Removed": 1
+    },
+    "food": {
+      "Actual": 683,
+      "Deleted": 57,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "forest": {
+      "Actual": 18,
+      "Deleted": 0,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "google": {
+      "Actual": 1426,
+      "Deleted": 109,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "government": {
+      "Actual": 715,
+      "Deleted": 47,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "graduate": {
+      "Actual": 33,
+      "Deleted": 1,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "gun": {
+      "Actual": 58,
+      "Deleted": 7,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "healthcare": {
+      "Actual": 66,
+      "Deleted": 5,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "hospital": {
+      "Actual": 55,
+      "Deleted": 0,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "iPhone": {
+      "Actual": 42,
+      "Deleted": 2,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "law": {
+      "Actual": 4925,
+      "Deleted": 701,
+      "Empty": 0,
+      "Removed": 3
+    },
+    "medicine": {
+      "Actual": 149,
+      "Deleted": 9,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "pixel": {
+      "Actual": 0,
+      "Deleted": 0,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "politics": {
+      "Actual": 382,
+      "Deleted": 32,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "professor": {
+      "Actual": 341,
+      "Deleted": 28,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "putin": {
+      "Actual": 0,
+      "Deleted": 0,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "rain": {
+      "Actual": 300,
+      "Deleted": 21,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "republic": {
+      "Actual": 13,
+      "Deleted": 0,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "river": {
+      "Actual": 1343,
+      "Deleted": 70,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "satellite": {
+      "Actual": 17,
+      "Deleted": 1,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "school": {
+      "Actual": 624,
+      "Deleted": 50,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "science": {
+      "Actual": 395,
+      "Deleted": 53,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "sick": {
+      "Actual": 46,
+      "Deleted": 5,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "student": {
+      "Actual": 235,
+      "Deleted": 17,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "sun": {
+      "Actual": 132,
+      "Deleted": 6,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "technology": {
+      "Actual": 746,
+      "Deleted": 63,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "television": {
+      "Actual": 51,
+      "Deleted": 1,
+      "Empty": 0,
+      "Removed": 1
+    },
+    "tree": {
+      "Actual": 448,
+      "Deleted": 37,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "university": {
+      "Actual": 316,
+      "Deleted": 34,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "virus": {
+      "Actual": 35,
+      "Deleted": 4,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "war": {
+      "Actual": 370,
+      "Deleted": 40,
+      "Empty": 0,
+      "Removed": 0
+    },
+    "weather": {
+      "Actual": 24,
+      "Deleted": 5,
+      "Empty": 0,
+      "Removed": 0
+    }
+  }
+}

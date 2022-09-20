@@ -1,0 +1,30 @@
+{
+  "ChangeMyView": {
+    "Education": 275,
+    "Environment": 273,
+    "Healthcare": 298,
+    "Politics": 271,
+    "Technology": 292
+  },
+  "ExplainLikeImFive": {
+    "Education": 270,
+    "Environment": 278,
+    "Healthcare": 285,
+    "Politics": 256,
+    "Technology": 291
+  },
+  "FoodForThought": {
+    "Education": 239,
+    "Environment": 107,
+    "Healthcare": 212,
+    "Politics": 189,
+    "Technology": 122
+  },
+  "TodayILearned": {
+    "Education": 199,
+    "Environment": 110,
+    "Healthcare": 104,
+    "Politics": 125,
+    "Technology": 136
+  }
+}
