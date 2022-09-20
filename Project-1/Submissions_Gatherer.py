@@ -3,7 +3,7 @@ import time
 from psaw import PushshiftAPI
 api = PushshiftAPI()
 
-SUBMISSIONS_LIMIT = 10
+SUBMISSIONS_LIMIT = 30
 
 print("Start Loading Json files in", __file__)
 
@@ -30,7 +30,7 @@ for sub_reddit in contents.keys():
                 "q": topic,
                 "before": "1y",
                 "subreddit": [sub_reddit],
-                "num_comments": ">10",
+                "num_comments": ">3",
                 "selftext": topic,
                 "selftext:not": "[removed]|[deleted]",
                 "filter": ['id', 'subreddit', 'full_link', 'title', 'selftext', 'author', 'score', 'num_comments'],
@@ -47,6 +47,7 @@ for sub_reddit in contents.keys():
                 item_dict['topic'] = main_topic
                 item_dict['created_time'] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.localtime(item_dict['created']))
                 item_dict['is_submission'] = True
+                item_dict['keyword'] = topic
                 if "selftext" in item_dict.keys():
                     text = item_dict['selftext']
                 else:
