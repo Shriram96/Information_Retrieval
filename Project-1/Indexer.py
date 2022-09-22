@@ -78,52 +78,27 @@ class Indexer:
     def add_fields(self):
         data = {
             "add-field": [
-                # {
-                #     "name": "id",
-                #     "type": "string",
-                #     "multiValued": False,
-                # },
                 {
-                    "name": "parent_id",
+                    "name": "author",
                     "type": "string",
-                    "multiValued": False,
+                    "multiValued": False
+                },
+                {
+                    "name": "full_link",
+                    "type": "string",
+                    "multiValued": False
+                }, {
+                    "name": "selftext",
+                    "type": "text_en",
+                    "multiValued": False
                 },
                 {
                     "name": "subreddit",
                     "type": "string",
                     "multiValued": False
-                }, 
-                {
-                    "name": "full_link",
-                    "type": "string",
-                    "multiValued": False
                 },
                 {
                     "name": "title",
-                    "type": "string",
-                    "multiValued": False
-                },
-                {
-                    "name": "selftext",
-                    "type": "text_en",
-                    "multiValued": False,
-                    "indexed":True,
-                    "stored":True
-                },
-                {
-                    "name": "body",
-                    "type": "text_en",
-                    "multiValued": False,
-                    "indexed":True,
-                    "stored":True
-                },
-                {
-                    "name": "parent_body",
-                    "type": "string",
-                    "multiValued": False
-                },
-                {
-                    "name": "author",
                     "type": "string",
                     "multiValued": False
                 },
@@ -140,6 +115,21 @@ class Indexer:
                 {
                     "name": "created_at",
                     "type": "pdate",
+                    "multiValued": False
+                },
+                {
+                    "name": "body",
+                    "type": "text_en",
+                    "multiValued": False
+                },
+                {
+                    "name": "parent_id",
+                    "type": "string",
+                    "multiValued": False
+                },
+                {
+                    "name": "parent_body",
+                    "type": "text_en",
                     "multiValued": False
                 },
             ]
