@@ -6,20 +6,15 @@ Institute: University at Buffalo
 from tqdm import tqdm
 from preprocessor import Preprocessor
 from indexer import Indexer
-from collections import OrderedDict
 from linkedlist import LinkedList
-import inspect as inspector
-import sys
 import argparse
 import json
 import time
 import random
 import flask
-from flask import Flask
-from flask import request
 import hashlib
 
-app = Flask(__name__)
+app = flask.Flask(__name__)
 
 
 class ProjectRunner:
@@ -27,24 +22,92 @@ class ProjectRunner:
         self.preprocessor = Preprocessor()
         self.indexer = Indexer()
 
-    def _merge(self):
+    def _merge(self, postings_1, postings_2, skip = False):
         """ Implement the merge algorithm to merge 2 postings list at a time.
             Use appropriate parameters & return types.
             While merging 2 postings list, preserve the maximum tf-idf value of a document.
             To be implemented."""
-        raise NotImplementedError
+        node_1 = postings_1.start_node
+        node_2 = postings_2.start_node
+        num_comparisons = 0
+        merged_list = LinkedList()
+        if not skip:
+            while node_1 is not None and node_2 is not None:
+                num_comparisons += 1
+                if node_1.value == node_2.value:
+                    decider_tf = max(node_1.tf, node_2.tf)
+                    decider_tfidf = max(node_1.tfidf, node_2.tfidf)
+                    merged_list.insert_at_end(node_1.value, decider_tf, decider_tfidf)
+                    node_1 = node_1.next
+                    node_2 = node_2.next
+                elif node_1.value < node_2.value:
+                    node_1 = node_1.next
+                else:
+                    node_2 = node_2.next
+        else:
+            while node_1 is not None and node_2 is not None:
+                num_comparisons += 1
+                if node_1.value == node_2.value:
+                    decider_tf = max(node_1.tf, node_2.tf)
+                    decider_tfidf = max(node_1.tfidf, node_2.tfidf)
+                    merged_list.insert_at_end(node_1.value, decider_tf, decider_tfidf)
+                    node_1 = node_1.next
+                    node_2 = node_2.next
+                elif node_1.next_skip is not None and node_1.next_skip.value <= node_2.value:
+                    node_1 = node_1.next_skip
+                elif node_2.next_skip is not None and node_2.next_skip.value <= node_1.value:
+                    node_2 = node_2.next_skip
+                elif node_1.value < node_2.value:
+                    node_1 = node_1.next
+                else:
+                    node_2 = node_2.next
+            merged_list.add_skip_connections()
+        return num_comparisons, merged_list
 
-    def _daat_and(self):
+    def _daat_and(self, query_terms, skip=False):
         """ Implement the DAAT AND algorithm, which merges the postings list of N query terms.
             Use appropriate parameters & return types.
             To be implemented."""
-        raise NotImplementedError
+        merged_list = None
+        num_comparisons = 0
+        if len(query_terms) == 1:
+            term_postings = self._get_postings(query_terms[0])
+            merged_list = term_postings
+        elif len(query_terms) >= 2:
+            term_to_postings = dict()
+            for term in query_terms:
+                term_postings = self._get_postings(term)
+                term_to_postings[term] = term_postings.length
 
-    def _get_postings(self):
+            input_term_arr = []
+            for term, _ in sorted(term_to_postings.items(), key = lambda term_len: term_len[1]):
+                input_term_arr.append(term)
+            
+            input_term_len = len(input_term_arr)
+            for i in range(input_term_len - 1):
+                temp_comparisons = 0
+                postings_1 = merged_list
+                if postings_1 is None:
+                    postings_1 = self._get_postings(input_term_arr[i])
+                    
+                postings_2 = self._get_postings(input_term_arr[i + 1])
+                temp_comparisons, merged_list = self._merge(postings_1, postings_2, skip)
+                num_comparisons += temp_comparisons
+
+        if merged_list is None:
+            merged_list = LinkedList()
+        return num_comparisons, merged_list
+
+    def _get_postings(self, term):
         """ Function to get the postings list of a term from the index.
             Use appropriate parameters & return types.
             To be implemented."""
-        raise NotImplementedError
+        postings_list = LinkedList()
+
+        if term in self.indexer.get_index():
+            postings_list = self.indexer.get_index().get(term)
+
+        return postings_list
 
     def _output_formatter(self, op):
         """ This formats the result in the required format.
@@ -99,13 +162,13 @@ class ProjectRunner:
                 3. Get the DAAT AND query results & number of comparisons with & without skip pointers.
                 4. Get the DAAT AND query results & number of comparisons with & without skip pointers, 
                     along with sorting by tf-idf scores."""
-            raise NotImplementedError
 
-            input_term_arr = []  # Tokenized query. To be implemented.
+            input_term_arr = self.preprocessor.tokenizer(query)  # Tokenized query. To be implemented.
 
             for term in input_term_arr:
-                postings, skip_postings = None, None
-
+                all_postings = self._get_postings(term)
+                postings = all_postings.traverse_list()
+                skip_postings = all_postings.traverse_skips()
                 """ Implement logic to populate initialize the above variables.
                     The below code formats your result to the required format.
                     To be implemented."""
@@ -116,6 +179,31 @@ class ProjectRunner:
             and_op_no_skip, and_op_skip, and_op_no_skip_sorted, and_op_skip_sorted = None, None, None, None
             and_comparisons_no_skip, and_comparisons_skip, \
                 and_comparisons_no_skip_sorted, and_comparisons_skip_sorted = None, None, None, None
+
+            and_comparisons_no_skip, and_op_no_skip = self._daat_and(input_term_arr)
+            node_list = []
+            node = and_op_no_skip.start_node
+            while node is not None:
+                node_list.append([node.value, node.tfidf])
+                node = node.next
+            and_op_no_skip_sorted = []
+            for [value, _] in sorted(node_list, key = lambda x: x[1], reverse = True):
+                and_op_no_skip_sorted.append(value)
+            and_comparisons_no_skip_sorted = and_comparisons_no_skip
+            and_op_no_skip = and_op_no_skip.traverse_list()
+
+            and_comparisons_skip, and_op_skip = self._daat_and(input_term_arr, True)
+            node_list = []
+            node = and_op_skip.start_node
+            while node is not None:
+                node_list.append([node.value, node.tfidf])
+                node = node.next
+            and_op_skip_sorted = []
+            for [value, _] in sorted(node_list, key = lambda x: x[1], reverse = True):
+                and_op_skip_sorted.append(value)
+            and_comparisons_skip_sorted = and_comparisons_skip
+            and_op_skip = and_op_skip.traverse_list()
+
             """ Implement logic to populate initialize the above variables.
                 The below code formats your result to the required format.
                 To be implemented."""
@@ -153,8 +241,10 @@ def execute_query():
         Do NOT change it."""
     start_time = time.time()
 
-    queries = request.json["queries"]
-    random_command = request.json["random_command"]
+    queries = flask.request.json["queries"]
+    print("Queries:", queries)
+    random_command = flask.request.json["random_command"]
+    print("Random Command:", random_command)
 
     """ Running the queries against the pre-loaded index. """
     output_dict = runner.run_queries(queries, random_command)
