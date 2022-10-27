@@ -3,7 +3,7 @@ import pysolr
 import requests
 import json
 
-CORE_NAME = "BM25"
+CORE_NAME = "VSM"
 AWS_IP = "localhost"
 
 
@@ -90,7 +90,7 @@ class Indexer:
         print(requests.post(self.solr_url + CORE_NAME + "/schema", json=data).json())
 
 
-    def replace_BM25(self, b=None, k1=None):
+    def replace_VSM(self, b=None, k1=None):
         data = {
             "replace-field-type": [
                 {
@@ -117,7 +117,7 @@ class Indexer:
                         }]
                     },
                     'similarity': {
-                        'class': 'solr.BM25SimilarityFactory',
+                        'class': 'solr.ClassicSimilarityFactory',
                         'b': str(b),
                         'k1': str(k1)
                     },
@@ -166,7 +166,7 @@ class Indexer:
                         }]
                     },
                     'similarity': {
-                        'class': 'solr.BM25SimilarityFactory',
+                        'class': 'solr.ClassicSimilarityFactory',
                         'b': str(b),
                         'k1': str(k1)
                     },
@@ -192,7 +192,7 @@ class Indexer:
                         }]
                     },
                     'similarity': {
-                        'class': 'solr.BM25SimilarityFactory',
+                        'class': 'solr.ClassicSimilarityFactory',
                         'b': str(b),
                         'k1': str(k1)
                     },
@@ -207,10 +207,10 @@ if __name__ == "__main__":
     i = Indexer()
     i.do_initial_setup()
 
-    i.replace_BM25(b=0.8, k1=1.4)
+    i.replace_VSM(b=0.8, k1=1.4)
     
     i.add_fields()
-    i.replace_fields()
+    # i.replace_fields()
     i.create_documents(collection)
     
 
