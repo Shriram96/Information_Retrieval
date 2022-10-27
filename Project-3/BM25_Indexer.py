@@ -20,7 +20,7 @@ def create_core(core=CORE_NAME):
 # collection
 
 collection = []
-with open('train.json') as f:
+with open('data/train.json') as f:
     collection = json.load(f)
 
 
