@@ -467,9 +467,9 @@
   <field name="lang" type="string" multiValued="false"/>
   <field name="text_de" type="text_de" multiValued="false" indexed="true"/>
   <field name="text_en" type="text_en" multiValued="false" indexed="true"/>
-  <field name="text_processed_de" type="text_general"/>
-  <field name="text_processed_en" type="text_general"/>
-  <field name="text_processed_ru" type="text_general"/>
+  <field name="text_processed_de" type="text_de" multiValued="false" indexed="true"/>
+  <field name="text_processed_en" type="text_en" multiValued="false" indexed="true"/>
+  <field name="text_processed_ru" type="text_ru" multiValued="false" indexed="true"/>
   <field name="text_ru" type="text_ru" multiValued="false" indexed="true"/>
   <field name="tweet_hashtags" type="strings" multiValued="true"/>
   <field name="tweet_urls" type="strings" multiValued="true"/>
@@ -542,7 +542,4 @@
   <dynamicField name="*_f" type="pfloat" indexed="true" stored="true"/>
   <dynamicField name="*_d" type="pdouble" indexed="true" stored="true"/>
   <dynamicField name="*_p" type="location" indexed="true" stored="true"/>
-  <copyField source="text_processed_de" dest="text_processed_de_str" maxChars="256"/>
-  <copyField source="text_processed_en" dest="text_processed_en_str" maxChars="256"/>
-  <copyField source="text_processed_ru" dest="text_processed_ru_str" maxChars="256"/>
 </schema>

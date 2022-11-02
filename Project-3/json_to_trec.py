@@ -5,7 +5,7 @@ import json
 from Preprocessor import detect_lang, preprocess_all, remove_specials
 import urllib.request
 
-f = open("data/queries.txt", "r")
+f = open("data/test-queries.txt", "r")
 queries = []
 for x in f:
   queries.append(x)
