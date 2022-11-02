@@ -49,8 +49,21 @@ class Indexer:
                     "type": "text_de",
                     "indexed":True,
                     "multiValued": False
-                }, {
+                },
+                {
+                    "name": "text_processed_de",
+                    "type": "text_de",
+                    "indexed":True,
+                    "multiValued": False
+                }, 
+                {
                     "name": "text_en",
+                    "type": "text_en",
+                    "indexed":True,
+                    "multiValued": False
+                },
+                {
+                    "name": "text_processed_en",
                     "type": "text_en",
                     "indexed":True,
                     "multiValued": False
@@ -62,6 +75,12 @@ class Indexer:
                 },
                 {
                     "name": "text_ru",
+                    "type": "text_ru",
+                    "indexed":True,
+                    "multiValued": False
+                },
+                {
+                    "name": "text_processed_ru",
                     "type": "text_ru",
                     "indexed":True,
                     "multiValued": False
