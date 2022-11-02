@@ -76,19 +76,6 @@ class Indexer:
 
         print(requests.post(self.solr_url + CORE_NAME + "/schema", json=data).json())
 
-    def replace_fields(self):
-        data = {
-            "replace-field": [
-                {
-                    "name": "age",
-                    "type": "string",
-                    "multiValued": False
-                }
-            ]
-        }
-
-        print(requests.post(self.solr_url + CORE_NAME + "/schema", json=data).json())
-
 
     def replace_BM25(self, b=None, k1=None):
         data = {
@@ -207,10 +194,10 @@ if __name__ == "__main__":
     i = Indexer()
     i.do_initial_setup()
 
-    i.replace_BM25(b=0.8, k1=1.4)
+    i.replace_BM25(b=0.75, k1=1.2)
     
     i.add_fields()
-    # i.replace_fields()
+
     i.create_documents(collection)
     
 
