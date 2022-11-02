@@ -5,7 +5,7 @@ import json
 from Preprocessor import detect_lang, preprocess_all, remove_specials
 import urllib.request
 
-f = open("data/test-queries.txt", "r")
+f = open("../data/test-queries.txt", "r")
 queries = []
 for x in f:
   queries.append(x)
@@ -13,7 +13,7 @@ for x in f:
 ir_models = ['BM25', 'VSM']
 
 for model in ir_models:
-  sample_trec_input_file = open('data/sample_trec_input_'+model.lower()+'.txt', 'w+')
+  sample_trec_input_file = open('../data/sample_trec_input_'+model.lower()+'.txt', 'w+')
   for query in queries:
       a = query.split(' ')
       query_number = a[0]

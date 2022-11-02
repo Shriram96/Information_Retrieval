@@ -57,8 +57,8 @@ def preprocess_all(tweet: dict) -> dict:
     return result
 
 if __name__ == "__main__":
-    input_path = 'data/train.json'
-    output_path = 'data/train_preprocessed.json'
+    input_path = '../data/train.json'
+    output_path = '../data/train_preprocessed.json'
     
     collection = []
     with open(input_path) as f:
